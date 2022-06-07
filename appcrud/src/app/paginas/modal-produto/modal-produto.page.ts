@@ -1,7 +1,13 @@
-{import { Component, OnInit } from '@angular/core';
+import { Component, Input,  OnInit } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { NgForm } from '@angular/forms';
 import { Produto, ProdutoService } from 'src/app/servicos/produto.service';
+
+// import { Component, Input, OnInit } from '@angular/core';
+// import { NgForm } from '@angular/forms';
+// import { ModalController } from '@ionic/angular';
+// import { Cliente, ClienteService } from 'src/app/servicos/cliente.service';
+
 
 @Component({
   selector: 'app-modal-produto',
@@ -46,4 +52,3 @@ export class ModalProdutoPage implements OnInit {
   
 }
 
-}
